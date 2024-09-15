@@ -71,10 +71,10 @@ input[name="mem"] {
 .but_checkbox {
     padding: 0.25em;
     margin: 0.3em;
-    width: 0.15em;
-    height: 0.15em;
+    width: 0.2em;
+    height: 0.2em;
     border-radius: 50%;
-    border: 3px solid #3460f1;
+    border: 0.17em solid #3460f1;
     background-color: #3460f1;
     cursor: pointer;
 
@@ -129,7 +129,7 @@ input[name="mem"] {
 #r2:checked~ .blok-button #but_2,
 #r3:checked~ .blok-button #but_3,
 #r4:checked~ .blok-button #but_4 {
-    border: 3px solid #3460f1;
+    border: 0.17em solid #3460f1;
     background-color: #282825;
 }
 
@@ -138,7 +138,7 @@ input[name="mem"] {
 #r2:not(:checked)~ .blok-button #but_2,
 #r3:not(:checked)~ .blok-button #but_3,
 #r4:not(:checked)~ .blok-button #but_4 {
-    border: 3px solid #3460f1;
+    border: 0.17em solid #3460f1;
     background-color: #3460f1;
 }
 
@@ -148,7 +148,7 @@ input[name="mem"] {
 #r3:checked~ .blok-button #but_3:hover,
 #r4:checked~ .blok-button #but_4:hover {
     background-color: #282825;
-    border: 3px solid white;
+    border: 0.17em solid white;
 }
 
 /* неактивная кнопка hover*/
@@ -157,7 +157,7 @@ input[name="mem"] {
 #r3:not(:checked)~ .blok-button #but_3:hover,
 #r4:not(:checked)~ .blok-button #but_4:hover {
     background-color: white;
-    border: 3px solid white;
+    border: 0.17em solid white;
 }
 
 /* активная кнопка active*/
@@ -166,7 +166,7 @@ input[name="mem"] {
 #r3:checked~ .blok-button #but_3:active,
 #r4:checked~ .blok-button #but_4:active {
     background-color: #282825;
-    border: 3px solid rgba(40, 119, 89, 0.966);
+    border: 0.17em solid rgba(40, 119, 89, 0.966);
 }
 
 /* неактивная кнопка active*/
@@ -175,7 +175,7 @@ input[name="mem"] {
 #r3:not(:checked)~ .blok-button #but_3:active,
 #r4:not(:checked)~ .blok-button #but_4:active {
     background-color: rgba(40, 119, 89, 0.966);
-    border: 3px solid rgba(40, 119, 89, 0.966);
+    border: 0.17em solid rgba(40, 119, 89, 0.966);
 }
 
 
