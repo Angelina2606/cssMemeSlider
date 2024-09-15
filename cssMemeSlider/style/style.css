@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #282825;
+    font-size: 1.2em;
+    color: white;
+}
+
+input[name="mem"] {
+    display: none;
+}
+
+.container {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blok-mem-picture {
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.picture-mem {
+    width: 60vw;
+    border-radius: 4%;
+    animation: fade 3s ease;
+}
+
+.hide_mem {
+    display: none;
+}
+
+.blok-desc-but {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blok-description-mem {
+    width: 100%;
+    display: blok;
+}
+
+.description-mem {
+    animation: fade 3s ease;
+}
+
+.blok-button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: -4.5%;
+}
+
+.but_checkbox {
+    padding: 0.25em;
+    margin: 0.3em;
+    width: 0.15em;
+    height: 0.15em;
+    border-radius: 50%;
+    border: 3px solid #3460f1;
+    background-color: #3460f1;
+    cursor: pointer;
+
+}
+
+.but_div_lable{
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: -450%;
+    margin-top: -450%;
+}
