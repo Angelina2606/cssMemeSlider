@@ -86,3 +86,94 @@ input[name="mem"] {
     margin-left: -450%;
     margin-top: -450%;
 }
+
+
+/* Селекторы для переключения изображений и описаний */
+#r1:checked~.blok-mem-picture #mem_1,
+#r1:checked~.blok-description-mem #desc_mem_1 {
+    display: block;
+}
+
+#r2:checked~.blok-mem-picture #mem_2,
+#r2:checked~.blok-description-mem #desc_mem_2 {
+    display: block;
+}
+
+#r3:checked~.blok-mem-picture #mem_3,
+#r3:checked~.blok-description-mem #desc_mem_3 {
+    display: block;
+}
+
+#r4:checked~.blok-mem-picture #mem_4,
+#r4:checked~.blok-description-mem #desc_mem_4 {
+    display: block;
+}
+
+/* Скрываем остальные изображения и описания */
+#r1:not(:checked)~.blok-mem-picture #mem_1,
+#r2:not(:checked)~.blok-mem-picture #mem_2,
+#r3:not(:checked)~.blok-mem-picture #mem_3,
+#r4:not(:checked)~.blok-mem-picture #mem_4 {
+    display: none;
+}
+
+#r1:not(:checked)~.blok-description-mem #desc_mem_1,
+#r2:not(:checked)~.blok-description-mem #desc_mem_2,
+#r3:not(:checked)~.blok-description-mem #desc_mem_3,
+#r4:not(:checked)~.blok-description-mem #desc_mem_4 {
+    display: none;
+}
+
+/* активная кнопка */
+#r1:checked~ .blok-button #but_1,
+#r2:checked~ .blok-button #but_2,
+#r3:checked~ .blok-button #but_3,
+#r4:checked~ .blok-button #but_4 {
+    border: 3px solid #3460f1;
+    background-color: #282825;
+}
+
+/* неактивная кнопка */
+#r1:not(:checked)~ .blok-button #but_1,
+#r2:not(:checked)~ .blok-button #but_2,
+#r3:not(:checked)~ .blok-button #but_3,
+#r4:not(:checked)~ .blok-button #but_4 {
+    border: 3px solid #3460f1;
+    background-color: #3460f1;
+}
+
+/* активная кнопка hover*/
+#r1:checked~ .blok-button #but_1:hover,
+#r2:checked~ .blok-button #but_2:hover,
+#r3:checked~ .blok-button #but_3:hover,
+#r4:checked~ .blok-button #but_4:hover {
+    background-color: #282825;
+    border: 3px solid white;
+}
+
+/* неактивная кнопка hover*/
+#r1:not(:checked)~ .blok-button #but_1:hover,
+#r2:not(:checked)~ .blok-button #but_2:hover,
+#r3:not(:checked)~ .blok-button #but_3:hover,
+#r4:not(:checked)~ .blok-button #but_4:hover {
+    background-color: white;
+    border: 3px solid white;
+}
+
+/* активная кнопка active*/
+#r1:checked~ .blok-button #but_1:active,
+#r2:checked~ .blok-button #but_2:active,
+#r3:checked~ .blok-button #but_3:active,
+#r4:checked~ .blok-button #but_4:active {
+    background-color: #282825;
+    border: 3px solid rgba(40, 119, 89, 0.966);
+}
+
+/* неактивная кнопка active*/
+#r1:not(:checked)~ .blok-button #but_1:active,
+#r2:not(:checked)~ .blok-button #but_2:active,
+#r3:not(:checked)~ .blok-button #but_3:active,
+#r4:not(:checked)~ .blok-button #but_4:active {
+    background-color: rgba(40, 119, 89, 0.966);
+    border: 3px solid rgba(40, 119, 89, 0.966);
+}
