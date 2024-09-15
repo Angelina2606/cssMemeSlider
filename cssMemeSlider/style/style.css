@@ -177,3 +177,70 @@ input[name="mem"] {
     background-color: rgba(40, 119, 89, 0.966);
     border: 3px solid rgba(40, 119, 89, 0.966);
 }
+
+
+@media (max-device-width:1630px) and (min-device-width:1531px) {
+    .blok-button {
+        margin-top: -4.5%;
+    }
+}
+@media (max-device-width:1530px) and (min-device-width:1431px) {
+    .blok-button {
+        margin-top: -5%;
+    }
+}
+@media (max-device-width:1430px) and (min-device-width:1301px) {
+    .blok-button {
+        margin-top: -5.5%;
+    }
+}
+@media (max-device-width:1300px) and (min-device-width:1151px) {
+    .blok-button {
+        margin-top: -6%;
+    }
+}
+@media (max-device-width:1150px) and (min-device-width:1001px) {
+    .blok-button{
+        margin-top: -6.5%;
+    }
+}
+@media (max-device-width:1000px) and (min-device-width:951px) {
+    .blok-button {
+        margin-top: -7%;
+    }
+}
+@media (max-device-width:950px) and (min-device-width:871px) {
+    .blok-button {
+        margin-top: -7.5%;
+    }
+}
+@media (max-device-width:870px) and (min-device-width:821px) {
+    .blok-button {
+        margin-top: -8%;
+    }
+}
+
+@media (max-device-width:568px) and (min-device-width:490px) {
+    .blok-button {
+        justify-content: center;
+    }
+    .blok-description-mem {
+        margin-top: -5%;
+    }
+}
+@media (max-device-width:489px) and (min-device-width:400px) {
+    .blok-button {
+        justify-content: center;
+    }
+    .blok-description-mem {
+        margin-top: -6%;
+    }
+}
+@media (max-device-width:399px) and (min-device-width:320px) {
+    .blok-button {
+        justify-content: center;
+    }
+    .blok-description-mem {
+        margin-top: -7%;
+    }
+}
